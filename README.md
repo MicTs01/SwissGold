@@ -17,7 +17,7 @@ Les données cartographiques proviennent d’Elijah Meeks et peuvent être retro
 https://github.com/emeeks/d3_in_action_2/blob/master/data/world.geojson
 
 ## Comment jouer (installation et utilisation)
-Pour lancer la visualisation, il vous suffit de télécharger le dossier et de le placer sur un serveur en local. Une fois le serveur lancé, il vous suffira d’ouvrir votre navigateur et de vous connecter à celui-ci.
+Pour lancer la visualisation, il vous suffit de télécharger le dossier et de le placer sur un serveur en local. Une fois le serveur lancé, il vous suffira d’ouvrir votre navigateur, de vous connecter à celui-ci et de lancer GoldenTicket.html.
 
 A ce stade, seule la première étape est disponible. L’utilisateur a pour tâche de trouver le plus gros pays importateur d’or en 2017. Sur un globe, le teint des pays change selon le volume importer. L’utilisateur peut zoomer sur le globe (avec la roulette de la souris),  le déplacer (en maintenant le bouton de la souris) et le faire pivoter (avec le curseur) pour l'aider à répondre à la question. Enfin, si l’utilisateur souhaite avoir plus d’information, il peut faire apparaître le nom et le volume d’or importé en survolant les pays.
 
