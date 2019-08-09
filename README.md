@@ -21,9 +21,9 @@ Pour lancer la visualisation, il vous suffit de télécharger le dossier et de l
 
 A ce stade, seule la première étape est disponible. L’utilisateur a pour tâche de trouver le plus gros pays importateur d’or en 2017. Sur un globe, le teint des pays change selon le volume importer. L’utilisateur peut zoomer sur le globe (avec la roulette de la souris),  le déplacer (en maintenant le bouton de la souris) et le faire pivoter (avec le curseur) pour l'aider à répondre à la question. Enfin, si l’utilisateur souhaite avoir plus d’information, il peut faire apparaître le nom et le volume d’or importé en survolant les pays.
 
-![Illustration 2 - GoldImportsByCountryEnd](illustration/GoldenTicket_02.png?raw=true "Title")
-
 Deux autres étapes sont prévues. Elles exploreront l’évolution dans le temps du commerce de l’or à travers d'autres visualisations (graphiques, nuage de point) en y incluant des évènements historiques pour comprendre ces derniers. De plus, il sera aussi possible de filtrer les données par années et de choisir l'importation ou l'exportation d'or.
+
+![Illustration 2 - GoldImportsByCountryEnd](illustration/GoldenTicket_02.png?raw=true "Title")
 
 ## Crédits
 Projet réalisé par John Rose pour le cours "Visualisation de données" de l'Université de Lausanne, sous la supervision d'Isaac Pante.
