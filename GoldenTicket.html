@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Golden Ticket Project</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script> 
+    <script src="https://d3js.org/d3-geo-projection.v1.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="../library/d3-legend.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    
+</head>
+<body>
+<!-- Insert top banner and navbar -->
+<div id="logo"></div>
+<a href="http://unil.ch/index.html"><img src="../media/GoldenSwitzerland_Logo2.svg" alt=""></a>
+
+<div class="question">The Golden Ticket <br> An Interactive Data Visualization Game</div>
+<div id="sliderRotate"></div>
+<div class="button"><button class="buttonStart" onclick=Phase1()>Click Here to Start</button></div>
+<div id="container"></div>
+<div class="tooltip"></div>
+<script src=../GoldenTicket.js></script>
+<!-- This is a Work in Progress -->
+<!-- Sources :
+  DataSet
+    World Gold Importation from The Observatory of Economic Complexity - https://oec.world/en/visualize/tree_map/hs92/import/show/all/7108/2017/
+    Geojson file from https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson
+
+  Library
+    d3.js by Mike Bostock (https://d3js.org/)
+    d3-legend by Susie Lu (https://d3-legend.susielu.com/)
+
+  Research 
+    Public Eye (2015), "A Golden Racket : The True Source of Switzerland's 'Togolese' Gold"
+    Pieth, Mark (Nov.2018), "Une occasion en or pour la Suisse de faire du commerce responsable", [Online] URL: https://www.swissinfo.ch/fre/rapport-f%C3%A9d%C3%A9ral_une-occasion-en-or-pour-la-suisse-de-faire-du-commerce-responsable/44559110
+    Nguyen, Duc-Quang & Mariani, Daniele (Mai 2015), "C'est l'or le véritable emblème de la Suisse", [Online] URL : https://www.swissinfo.ch/fre/commerce-international_c-est-l-or-le-v%C3%A9ritable-embl%C3%A8me-de-la-suisse/41401136
+ -->
+</body>
+</html> 
