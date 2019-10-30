@@ -6,7 +6,7 @@ A Golden Ticket est un projet de visualisation de données du commerce de l'or i
  
 Cette visualisation a été réalisée grâce à la librairie d3.js (v.4). 
 
-![Illustration 1 - GoldImportsByCountry](illustration/GoldenTicket_01.png?raw=true "Title")
+![Illustration 1 - GoldImportsByCountry](illustration/GoldenSwitzerland_01.PNG?raw=true "Title")
 
 
 ## Données
@@ -23,7 +23,7 @@ A ce stade, seule la première étape est disponible. L’utilisateur a pour tâ
 
 Deux autres étapes sont prévues. Elles exploreront l’évolution dans le temps du commerce de l’or à travers d'autres visualisations (graphiques, nuage de point) en y incluant des évènements historiques pour comprendre ces derniers. De plus, il sera aussi possible de filtrer les données par années et de choisir l'importation ou l'exportation d'or.
 
-![Illustration 2 - GoldImportsByCountryEnd](illustration/GoldenTicket_02.png?raw=true "Title")
+![Illustration 2 - GoldImportsByCountryEnd](illustration/GoldenSwitzerland_02.PNG?raw=true "Title")
 
 ## Crédits
 Projet réalisé par John Rose pour le cours "Visualisation de données" de l'Université de Lausanne, sous la supervision d'Isaac Pante.
