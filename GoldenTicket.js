@@ -943,7 +943,7 @@ function Phase2(){
 
 
                       d3.select("button").on("click",function(){
-                        d3.selectAll("circle.dotMap").transition().duration(300).attr("r",0).remove()
+                        d3.selectAll("circle.dotMap").transition().duration(200).attr("r",0).remove()
                         d3.csv("../data/Switzerland_Exp.csv", data => createSwissExport(data))
 
                   // Create dataviz for Swiss Export 
@@ -1070,7 +1070,7 @@ function Phase3(){
 
 // Place empty layer for later data population (map, barchart,plotgraph) and add buttons
 function LayoutPhase3(){
-  d3.select("button").transition().duration(200).style("opacity","0").remove()
+  d3.select("button").remove()
   d3.select("text#Phase2").remove()
   d3.select("div.question").html("Pick a year and click on a button")
   d3.select("div#more").append("a").attr("text-align","right").attr("href","https://www.publiceye.ch/en/topics/commodities-trading/togolese-gold").html("Human right's implication of Swiss Gold Trade")
