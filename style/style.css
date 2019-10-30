@@ -28,9 +28,26 @@ button.buttonStart:active {
   transform: translateY(4px);
 }
 
+circle.dotMap{
+  opacity:0.7;
+  stroke-width:1;
+  stroke: black;
+}
+
+circle.dotMapLegend{
+  opacity:0.4;
+  stroke-width:1;
+  stroke: black;
+}
+
+circle.swatch{
+  opacity:0.7;
+  stroke-width:1;
+  stroke: black;
+  fill:red;
+}
 
 div.button{
-  margin-top: 50px; 
   text-align:center;
 }
  
@@ -38,10 +55,19 @@ div#container{
   text-align:center;
 }
 
+div.more{
+  overflow: hidden;
+  text-align: right;
+  font-family: Cooper;
+  font-size : 15px;
+  color:  LightSlateGrey;
+  text-decoration: none
+}
+
 div.question {
   text-align:center;
   font-size: 20px;
-  margin-top: 50px;
+  margin-top: 70px;
   font-family: Cooper;
   font-size : 60px;
   margin-bottom: 20px;
@@ -56,6 +82,14 @@ div#sliderRotate{
 div.sliderLabel{
   font-size : 17px;
   font-family: Cooper;
+}
+
+div.source{
+  font-family: Calibri;
+  text-align:right;
+  color:  LightSlateGrey;
+  font-style: italic;
+  font-size: 18px;
 }
 
 div.tooltip {
@@ -75,20 +109,18 @@ div.hidden {
 
 img{
   width:700px;
+  float: left;
 }
 
 input[type=button] {
   font-family: Cooper;
 }
 
-span.highlight {
-  color: rgb(180, 11, 11)
-}
 
 path.countries {
   stroke-width: 1;
   stroke: rgb(155, 135, 93);
-  stroke-opacity:0.4;
+  stroke-opacity:0.2;
 }
 
 path.graticule {
@@ -97,9 +129,9 @@ path.graticule {
   stroke: rgba(73, 73, 73, 0.692);
 }
 
-path.fill {
+path.globeFill {
   fill: rgba(172, 160, 153, 0.767);
-   /* rgba(72, 97, 138, 0.52); */
+  /* fill: rgba(72, 97, 138, 0.52); */
   stroke-width: 0;
 }
 
@@ -108,11 +140,79 @@ path.outline {
   stroke-width: 0.1;
 }
 
-text.legendTitle{
-  font-size:28px
+path.mapFill{
+  stroke: rgba(73, 73, 73, 0.692);
+  stroke-width: 1;
+  /* fill: rgba(172, 160, 153, 0.767); */
+  fill:rgb(150, 196, 223);
+  opacity:0.5;
 }
 
-text.wip{
-  font-size:90px;
+rect.backgroundGraph{
+  fill:rgb(208, 209, 211);
+  stroke: rgba(73, 73, 73, 0.692);
+  opacity:0.7
+}
+
+.highlight{
+  color: rgb(180, 11, 11)
+}
+
+
+text.legendTitle{
+  font-size:28px;
   font-family: Cooper;
+}
+
+text.dotMapTitle{
+  font-size:28px;
+  font-family: Calibri;
+}
+
+text.frac{
+  font-size: 100px;
+  font-family: Cooper;
+  fill: rgb(180, 11, 11)
+}
+
+text.bigText{
+  font-size: 30px;
+  font-family: Calibri;
+  fill: black
+}
+
+text.graphLabel{
+  font-size: 12px;
+  font-family: Cooper;
+  fill: black
+}
+
+text.dotMapLabel{
+  font-size: 14px;
+  font-family: Calibri;
+  fill: black
+}
+
+select{
+  font-size: 20px;
+  font-family: Cooper;
+  fill: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+g.tick{
+  stroke: rgba(73, 73, 73, 0.692);
+}
+
+line{
+  opacity: 0.5;
+  stroke: rgba(73, 73, 73, 0.692);
+  stroke-width: 3px;
+}
+
+line.lineMapLegend{
+  opacity: 0.5;
+  stroke: rgba(73, 73, 73, 0.692);
+  stroke-width: 2px;
 }
