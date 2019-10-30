@@ -1,5 +1,5 @@
 # A Golden Ticket
-/ !\ Ce projet est en encore en cours de route. / !\
+
 
 ## Description
 "A Golden Switzerland" est un projet de visualisation de données du commerce de l'or international avec une focalisation particulière sur le rôle de la Suisse. Le but est d’amener, par le biais d’interaction, son utilisateur à saisir la place de la Suisse dans le commerce de l'or tout en se familiarisant avec plusieurs types de visualisations de données qui se font de plus en plus courants.
