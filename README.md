@@ -17,12 +17,12 @@ Les données cartographiques proviennent d’Elijah Meeks et peuvent être retro
 https://github.com/emeeks/d3_in_action_2/blob/master/data/world.geojson
 
 ## Installation et utilisation
-Pour lancer la visualisation, il vous suffit de télécharger le dossier et de le placer sur un serveur en local. Une fois le serveur lancé, il vous suffira d’ouvrir votre navigateur, de vous connecter à celui-ci et de lancer GoldenTicket.html.
+Pour lancer la visualisation, il vous suffit de télécharger le dossier et de le placer sur un serveur en local. Une fois le serveur lancé, il vous suffira d’ouvrir votre navigateur, de vous connecter à celui-ci et de lancer index.html.
 Dans la première étape, l’utilisateur a pour tâche de trouver le plus gros pays importateur d’or en 2017. Sur un globe, la couleur des pays change selon le volume importer. L’utilisateur peut zoomer sur le globe (avec la roulette de la souris) et le faire pivoter (avec le curseur) pour l'aider à répondre à la question. Enfin, si l’utilisateur souhaite avoir plus d’information, il peut faire apparaître le nom et le volume d’or importé en survolant les pays.
 Dans la deuxième étape est présenté le commerce de l'or suisse. D'où vient-il ? Où est-il envoyé ? Enfin, dans la dernière étape, l'utilisateur peut parcourir à nouveau les données observées pour la période de 2008 à 2017.
 
 ![Illustration 2 - GoldImportsByCountryFull](illustration/GoldenSwitzerland_02.PNG?raw=true "Title")
 
 ## Crédits
-Projet réalisé par John Rose pour le cours "Visualisation de données" de l'Université de Lausanne, sous la supervision d'Isaac Pante.
+Projet réalisé par John Rose dans le cadre du cours "Visualisation de données" sous la supervision d'Isaac Pante (SLI, Faculté des lettres, UNIL).
 
